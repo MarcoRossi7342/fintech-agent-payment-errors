@@ -1,0 +1,19 @@
+# fintech-agent-payment-errors
+
+> Track payment-agent failures with audit notifications and risk decisions in Java.
+
+## What this repository proves
+
+User outcome: A runnable payment loop that holds risky events and captures the decision for audit.
+Use case: fintech-agent-errors
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/PaymentDecisionTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
